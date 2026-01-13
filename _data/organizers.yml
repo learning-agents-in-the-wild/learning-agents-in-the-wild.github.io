@@ -7,7 +7,7 @@
 
 - name: "Dr. Fang Zhen"
   affiliation: "University of Technology Sydney"
-  image: "/assets/img/placeholder.svg"
+  image: "/assets/img/avatar_fang.jpeg"
 
 - name: "Dr. Sean Du"
   affiliation: "Nanyang Technological University"
@@ -15,5 +15,5 @@
 
 - name: "Prof. Ling Chen"
   affiliation: "University of Technology Sydney"
-  image: "/assets/img/placeholder.svg"
+  image: "/assets/img/avatar_chen.jpeg"
 
