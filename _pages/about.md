@@ -84,18 +84,21 @@ description: ""
 .section { margin: 48px 0; }
 
 .section h2 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #111827;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1e293b;
   margin: 0 0 20px;
   padding-bottom: 12px;
-  border-bottom: 2px solid #e5e7eb;
+  border-bottom: 1.5px solid #e2e8f0;
+  letter-spacing: -0.02em;
 }
 
 .section p {
-  color: #374151;
-  line-height: 1.8;
-  font-size: 1.05rem;
+  color: #475569;
+  line-height: 1.85;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  font-weight: 400;
 }
 
 /* ===== Topics List ===== */
@@ -107,17 +110,18 @@ description: ""
 
 .topics-list li {
   position: relative;
-  padding: 6px 0 6px 20px;
-  color: #374151;
-  font-size: 1rem;
-  line-height: 1.6;
+  padding: 7px 0 7px 22px;
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
 }
 
 .topics-list li::before {
   content: '•';
   position: absolute;
   left: 0;
-  color: #6366f1;
+  color: #818cf8;
   font-weight: 600;
   font-size: 1.1rem;
 }
@@ -191,8 +195,8 @@ description: ""
   justify-content: space-between;
   align-items: center;
   padding: 12px 0;
-  border-bottom: 1px solid #f3f4f6;
-  font-size: 1rem;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.95rem;
 }
 
 .dates-list li:last-child {
@@ -200,17 +204,20 @@ description: ""
 }
 
 .dates-list .label {
-  color: #374151;
+  color: #475569;
+  font-weight: 400;
+  letter-spacing: 0.01em;
 }
 
 .dates-list .value {
   color: #6366f1;
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 /* ===== Contact ===== */
 .contact-box {
-  background: #f9fafb;
+  background: #f8fafc;
   border-radius: 12px;
   padding: 24px;
   text-align: center;
@@ -219,13 +226,14 @@ description: ""
 
 .contact-box p {
   margin: 0;
-  color: #374151;
-  font-size: 1rem;
+  color: #475569;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
 }
 
 .contact-box a {
-  color: #4f46e5;
-  font-weight: 600;
+  color: #6366f1;
+  font-weight: 500;
 }
 
 /* ===== Responsive ===== */
