@@ -11,7 +11,16 @@
 
 - name: "Dr. Sean Du"
   affiliation: "Nanyang Technological University"
-  image: "/assets/img/placeholder.svg"
+  image: "/assets/img/avatar_du.png"
+
+- name: "Dr. Grigorios Chrysos"
+  affiliation: "University of Wisconsin-Madison"
+  image: "/assets/img/avatar_grigoris.jpeg"
+
+- name: "Dr. Shafiq Rayhan Joty"
+  affiliation: "Salesforce AI Research"
+  image: "/assets/img/avatar_shafiq.jpg"
+
 
 - name: "Prof. Ling Chen"
   affiliation: "University of Technology Sydney"
