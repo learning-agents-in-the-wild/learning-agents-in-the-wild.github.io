@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-call-for-papers",
           title: "Call for Papers",
-          description: "Submit your work to Risk and Safety in Agentic AI",
+          description: "Submit your work to Trustworthy Agentic AI: Failure Modes, Control, and Recovery",
           section: "Navigation",
           handler: () => {
             window.location.href = "/call-for-papers/";
