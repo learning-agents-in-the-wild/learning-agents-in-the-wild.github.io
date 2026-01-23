@@ -1,28 +1,42 @@
 # Organizers
 # Add organizer info here, all pages will automatically update
 
-- name: "Dr. Zijing Shi"
+- name: "Zijing Shi"
   affiliation: "University of Technology Sydney"
   image: "/assets/img/avatar_shi.jpeg"
+  url: "https://winni18.github.io/"
 
-- name: "Dr. Fang Zhen"
+- name: "Fang Zhen"
   affiliation: "University of Technology Sydney"
   image: "/assets/img/avatar_fang.jpeg"
+  url: "https://fang-zhen.github.io/"
 
-- name: "Dr. Sean Du"
+- name: "Sean Du"
   affiliation: "Nanyang Technological University"
   image: "/assets/img/avatar_du.png"
+  url: "https://d12306.github.io/"
 
-- name: "Dr. Grigorios Chrysos"
-  affiliation: "University of Wisconsin-Madison"
-  image: "/assets/img/avatar_grigoris.jpg"
-
-- name: "Dr. Shafiq Rayhan Joty"
-  affiliation: "Salesforce AI Research"
-  image: "/assets/img/avatar_shafiq.jpg"
-
-
-- name: "Prof. Ling Chen"
+- name: "Ling Chen"
   affiliation: "University of Technology Sydney"
   image: "/assets/img/avatar_chen.jpeg"
+  url: "https://profiles.uts.edu.au/Ling.Chen"
 
+- name: "Tongliang Liu"
+  affiliation: "The University of Sydney"
+  image: "/assets/img/avatar_liu.jpg"
+  url: "https://tongliang-liu.github.io/"
+
+- name: "Flora Salim"
+  affiliation: "University of New South Wales"
+  image: "/assets/img/avatar_flora.jpg"
+  url: "https://fsalim.github.io/"
+
+- name: "Grigorios Chrysos"
+  affiliation: "University of Wisconsin-Madison"
+  image: "/assets/img/avatar_grigoris.jpg"
+  url: "https://grigoris.ece.wisc.edu/"
+
+- name: "Shafiq Rayhan Joty"
+  affiliation: "Salesforce AI Research"
+  image: "/assets/img/avatar_shafiq.jpg"
+  url: "https://raihanjoty.github.io/"

@@ -2,7 +2,7 @@
 layout: page
 permalink: /call-for-papers/
 title: Call for Papers
-description: Submit your work to Risk and Safety in Agentic AI
+description: "Submit your work to Trustworthy Agentic AI: Failure Modes, Control, and Recovery"
 nav: true
 nav_order: 2
 ---

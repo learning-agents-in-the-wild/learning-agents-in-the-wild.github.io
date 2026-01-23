@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Risk and Safety in Agentic AI # the website title
+title: Trustworthy Agentic AI
 first_name: 
 middle_name: 
 last_name: 
 contact_note: >
   For any inquiries, please contact the organizers via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Risk and Safety in Agentic AI - Exploring safety challenges and risk mitigation strategies for autonomous AI systems.
+  Trustworthy Agentic AI: Failure Modes, Control, and Recovery - Exploring safety challenges and risk mitigation strategies for autonomous AI systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

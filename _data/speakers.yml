@@ -1,19 +1,22 @@
 # Invited Speakers
-# Add speaker info here, all pages will automatically update
+
+- name: "Sharon Li"
+  affiliation: "University of Wisconsin-Madison"
+  image: "assets/img/speaker_yixuan.jpeg"
+  url: "https://pages.cs.wisc.edu/~sharonli/"
 
 - name: "TBA"
   affiliation: "University"
   image: "/assets/img/placeholder.svg"
+  url: ""
 
 - name: "TBA"
   affiliation: "University"
   image: "/assets/img/placeholder.svg"
+  url: ""
 
 - name: "TBA"
   affiliation: "University"
   image: "/assets/img/placeholder.svg"
-
-- name: "TBA"
-  affiliation: "University"
-  image: "/assets/img/placeholder.svg"
+  url: ""
 

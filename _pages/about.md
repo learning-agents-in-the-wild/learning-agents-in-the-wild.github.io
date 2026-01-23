@@ -18,7 +18,7 @@ description: ""
   width: 100vw;
   left: 50%;
   transform: translateX(-50%);
-  padding: 100px 24px;
+  padding: 80px 24px;
   margin-top: -20px;
   margin-bottom: 48px;
   text-align: center;
@@ -29,55 +29,73 @@ description: ""
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(15,23,42,0.82) 0%, rgba(30,27,75,0.75) 50%, rgba(15,23,42,0.88) 100%);
+  background: linear-gradient(180deg, rgba(15,23,42,0.6) 0%, rgba(30,27,75,0.55) 50%, rgba(15,23,42,0.65) 100%);
 }
 
 .hero::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 50% 30%, rgba(139,92,246,0.12) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 50% 30%, rgba(99, 102, 241, 0.1) 0%, transparent 60%);
 }
 
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: 800px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
 .hero-badge {
   display: inline-block;
-  background: rgba(139,92,246,0.25);
-  border: 1px solid rgba(139,92,246,0.4);
-  color: #c4b5fd;
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  margin-bottom: 24px;
-  backdrop-filter: blur(10px);
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  color: #a5b4fc;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 28px;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  font-weight: 800;
+  font-size: 2.4rem;
+  font-weight: 600;
   color: #fff;
-  margin: 0 0 20px;
-  letter-spacing: -0.5px;
-  text-shadow: 0 4px 30px rgba(0,0,0,0.5);
+  margin: 0 0 12px;
+  letter-spacing: -0.3px;
+  line-height: 1.2;
 }
 
-.hero-sub {
-  font-size: 1.15rem;
-  color: rgba(255,255,255,0.85);
-  margin: 0;
-  line-height: 1.7;
+.hero h1 .subtitle {
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 300;
+  color: rgba(255,255,255,0.7);
+  margin-top: 10px;
+  letter-spacing: 0.3px;
 }
 
-.hero-sub strong {
-  color: #c7d2fe;
-  font-weight: 500;
+.hero-meta {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.hero-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.9rem;
+}
+
+.hero-meta-item i {
+  font-size: 1rem;
+  color: #818cf8;
 }
 
 /* ===== Sections ===== */
@@ -163,6 +181,23 @@ description: ""
   transform: scale(1.03);
 }
 
+.person-link,
+.person-link:hover,
+.person-link:focus,
+.person-link:active {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.person-link .person-name,
+.person-link .person-aff {
+  text-decoration: none !important;
+}
+
+.person-link:hover .person-name {
+  color: #6366f1;
+}
+
 .person-name {
   font-size: 0.78rem;
   font-weight: 500;
@@ -238,8 +273,11 @@ description: ""
 
 /* ===== Responsive ===== */
 @media (max-width: 640px) {
-  .hero { padding: 60px 20px; }
-  .hero h1 { font-size: 2rem; }
+  .hero { padding: 56px 20px; }
+  .hero h1 { font-size: 1.7rem; }
+  .hero h1 .subtitle { font-size: 1rem; margin-top: 8px; }
+  .hero-meta { gap: 16px; margin-top: 24px; }
+  .hero-meta-item { font-size: 0.8rem; }
   .people { gap: 1rem; }
   .person { padding: 16px 8px 12px; }
   .person img { width: 72px; height: 72px; }
@@ -257,6 +295,7 @@ html[data-theme='dark'] .person-name { color: #f3f4f6; }
 html[data-theme='dark'] .person-aff { color: #6b7280; }
 html[data-theme='dark'] .person img { border-color: #4b5563; }
 html[data-theme='dark'] .person:hover img { border-color: #818cf8; }
+html[data-theme='dark'] .person-link:hover .person-name { color: #a5b4fc; }
 html[data-theme='dark'] .dates-list li { border-color: #374155; }
 html[data-theme='dark'] .dates-list .label { color: #d1d5db; }
 html[data-theme='dark'] .dates-list .value { color: #a5b4fc; }
@@ -268,14 +307,17 @@ html[data-theme='dark'] .contact-box a { color: #a5b4fc; }
 <div class="hero">
   <div class="hero-content">
     <div class="hero-badge">ICML 2026 Workshop</div>
-    <h1>Risk & Safety in Agentic AI</h1>
-    <p class="hero-sub"><strong>📍 Seoul, South Korea · July 2026</strong><br>Exploring safety challenges and risk mitigation for agentic AI systems</p>
+    <h1>Trustworthy Agentic AI<span class="subtitle">Failure Modes, Control, and Recovery</span></h1>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><i class="ti ti-map-pin"></i> Seoul, South Korea</span>
+      <span class="hero-meta-item"><i class="ti ti-calendar"></i> July 2026</span>
+    </div>
   </div>
 </div>
 
 <div class="section">
 <h2>About</h2>
-<p>Agentic AI systems capable of long-horizon autonomy and real-world interaction are becoming increasingly powerful and widely deployed, raising safety concerns. This workshop provides a forum for researchers and practitioners to study failure modes, risks, and approaches for improving the safety and robustness of agentic AI systems.</p>
+<p>Agentic AI systems with long-horizon autonomy and real-world interaction are rapidly advancing toward real-world deployment, introducing new safety challenges. This workshop provides a forum for researchers and practitioners to study failure modes, risks, and approaches for improving the safety and robustness of agentic AI systems.</p>
 </div>
 
 <div class="section">
@@ -297,11 +339,17 @@ html[data-theme='dark'] .contact-box a { color: #a5b4fc; }
 <h2>Speakers</h2>
 <div class="people">
 {% for speaker in site.data.speakers %}
-  <div class="person">
-    <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}">
-    <p class="person-name">{{ speaker.name }}</p>
-    <p class="person-aff">{{ speaker.affiliation }}</p>
-  </div>
+  {% if speaker.url and speaker.url != "" %}
+  <a href="{{ speaker.url }}" target="_blank" class="person-link">
+  {% endif %}
+    <div class="person">
+      <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}">
+      <p class="person-name">{{ speaker.name }}</p>
+      <p class="person-aff">{{ speaker.affiliation }}</p>
+    </div>
+  {% if speaker.url and speaker.url != "" %}
+  </a>
+  {% endif %}
 {% endfor %}
 </div>
 </div>
@@ -310,11 +358,17 @@ html[data-theme='dark'] .contact-box a { color: #a5b4fc; }
 <h2>Organizers</h2>
 <div class="people">
 {% for organizer in site.data.organizers %}
-  <div class="person">
-    <img src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}">
-    <p class="person-name">{{ organizer.name }}</p>
-    <p class="person-aff">{{ organizer.affiliation }}</p>
-  </div>
+  {% if organizer.url and organizer.url != "" %}
+  <a href="{{ organizer.url }}" target="_blank" class="person-link">
+  {% endif %}
+    <div class="person">
+      <img src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}">
+      <p class="person-name">{{ organizer.name }}</p>
+      <p class="person-aff">{{ organizer.affiliation }}</p>
+    </div>
+  {% if organizer.url and organizer.url != "" %}
+  </a>
+  {% endif %}
 {% endfor %}
 </div>
 </div>
