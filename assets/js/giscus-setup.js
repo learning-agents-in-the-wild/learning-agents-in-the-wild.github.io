@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "agentic-risk-safety-workshop/agentic-risk-safety-workshop.github.io",
+    "data-repo": "learning-agents-in-the-wild/learning-agents-in-the-wild.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",

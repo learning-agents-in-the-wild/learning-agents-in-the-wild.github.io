@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-call-for-papers",
           title: "Call for Papers",
-          description: "Submit your work to Trustworthy Agentic AI: Failure Modes, Control, and Recovery",
+          description: "Submit your work to Learning Agents in the Wild",
           section: "Navigation",
           handler: () => {
             window.location.href = "/call-for-papers/";
