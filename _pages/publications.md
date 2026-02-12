@@ -169,7 +169,3 @@ We invite submissions of original research papers on topics related to learning 
 <p class="note">All deadlines are 23:59 AoE</p>
 </div>
 
-<div class="cfp-section">
-<h2>Contact</h2>
-<p>For questions, please contact <a class="contact-link" href="mailto:workshop-email@example.com">workshop-email@example.com</a></p>
-</div>

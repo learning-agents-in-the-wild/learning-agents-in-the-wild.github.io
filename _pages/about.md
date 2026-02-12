@@ -382,14 +382,3 @@ html[data-theme='dark'] .contact-box a { color: #a5b4fc; }
   <li><span class="label">Workshop</span><span class="value">TBA</span></li>
 </ul>
 </div>
-
-<div class="section">
-  <h2>Contact</h2>
-  <div class="contact-box">
-    <p>
-      Questions? Email us at
-      <a href="mailto:zijing.shi-1@uts.edu.au">zijing.shi-1@uts.edu.au</a>
-    </p>
-  </div>
-</div>
-
