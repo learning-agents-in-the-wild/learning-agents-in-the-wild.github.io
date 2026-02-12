@@ -21,10 +21,10 @@
   image: "/assets/img/avatar_chen.jpeg"
   url: "https://profiles.uts.edu.au/Ling.Chen"
 
-- name: "Tongliang Liu"
-  affiliation: "The University of Sydney"
+- name: "Bang Liu"
+  affiliation: "The University of Montreal"
   image: "/assets/img/avatar_liu.jpg"
-  url: "https://tongliang-liu.github.io/"
+  url: "http://www-labs.iro.umontreal.ca/~liubang/"
 
 - name: "Flora Salim"
   affiliation: "University of New South Wales"
