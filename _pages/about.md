@@ -307,7 +307,7 @@ html[data-theme='dark'] .contact-box a { color: #a5b4fc; }
 <div class="hero">
   <div class="hero-content">
     <div class="hero-badge">ICML 2026 Workshop</div>
-    <h1>Trustworthy Agentic AI<span class="subtitle">Failure Modes, Control, and Recovery</span></h1>
+    <h1>Learning Agents in the Wild</h1>
     <div class="hero-meta">
       <span class="hero-meta-item"><i class="ti ti-map-pin"></i> Seoul, South Korea</span>
       <span class="hero-meta-item"><i class="ti ti-calendar"></i> July 2026</span>

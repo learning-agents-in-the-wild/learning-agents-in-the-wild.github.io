@@ -2,7 +2,7 @@
 layout: page
 permalink: /call-for-papers/
 title: Call for Papers
-description: "Submit your work to Trustworthy Agentic AI: Failure Modes, Control, and Recovery"
+description: "Submit your work to Learning Agents in the Wild"
 nav: true
 nav_order: 2
 ---
