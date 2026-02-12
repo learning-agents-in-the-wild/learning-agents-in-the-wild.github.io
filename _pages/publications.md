@@ -128,19 +128,19 @@ html[data-theme='dark'] .contact-link {
 </style>
 
 <p class="cfp-intro">
-We invite submissions of original research papers on topics related to agentic AI safety and risk. Both empirical studies and conceptual contributions are welcome.
+We invite submissions of original research papers on topics related to learning agents in real-world environments. Both empirical studies and conceptual contributions are welcome.
 </p>
 
 <div class="cfp-section">
 <h2>Topics of Interest</h2>
 <ul class="topics-list">
-  <li>Risk assessment for agentic AI</li>
-  <li>Red-teaming & adversarial testing</li>
-  <li>Robustness under distribution shift</li>
-  <li>Multi-agent safety</li>
-  <li>Alignment techniques</li>
-  <li>Governance & policy</li>
-  <li>Deployment case studies</li>
+  <li>Online Interactive Learning</li>
+  <li>Learning under Imperfect Signals</li>
+  <li>Continual Learning & Memory</li>
+  <li>Safe & Aligned Adaptation</li>
+  <li>Evaluation under Non-Stationarity</li>
+  <li>Multi-Agent Learning in the Wild</li>
+  <li>Robustness to Distribution Shift</li>
 </ul>
 </div>
 

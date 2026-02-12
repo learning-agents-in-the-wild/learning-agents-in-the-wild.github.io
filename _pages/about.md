@@ -317,19 +317,19 @@ html[data-theme='dark'] .contact-box a { color: #a5b4fc; }
 
 <div class="section">
 <h2>About</h2>
-<p>Agentic AI systems with long-horizon autonomy and real-world interaction are rapidly advancing toward real-world deployment, introducing new safety challenges. This workshop provides a forum for researchers and practitioners to study failure modes, risks, and approaches for improving the safety and robustness of agentic AI systems.</p>
+<p>As AI agents move from controlled benchmarks to real-world deployment, they must learn continuously and adapt in open, evolving environments. This workshop brings together research on continual learning, deployment-time adaptation, and safety to enable agents that improve reliably over time.</p>
 </div>
 
 <div class="section">
   <h2>Topics</h2>
   <ul class="topics-list">
-  <li>Risk assessment and failure analysis for agentic AI systems</li>
-  <li>Red-teaming and adversarial evaluation of agentic behavior</li>
-  <li>Robustness and generalization under distribution shift</li>
-  <li>Safety challenges in multi-agent systems and coordination</li>
-  <li>Guardrails and safety mechanisms for agentic systems</li>
-  <li>Governance, oversight, and policy considerations for agentic AI</li>
-  <li>Case studies of real-world deployment such as web agents and workflow automation</li>
+  <li><strong>Online Interactive Learning</strong> — Agents that improve during deployment from real-world interaction and feedback.</li>
+  <li><strong>Learning under Imperfect Signals</strong> — Adapting with sparse, delayed, noisy, or implicit supervision.</li>
+  <li><strong>Continual Learning & Memory</strong> — Long-horizon adaptation without catastrophic forgetting or value drift.</li>
+  <li><strong>Safe & Aligned Adaptation</strong> — Risk-aware updates, monitoring, guardrails, and secure online learning.</li>
+  <li><strong>Evaluation under Non-Stationarity</strong> — Benchmarks and metrics for measuring learning dynamics in evolving environments.</li>
+  <li><strong>Multi-Agent Learning in the Wild</strong> — Co-adaptation, coordination, communication, and social learning among agents.</li>
+  <li><strong>Robustness to Distribution Shift</strong> — Learning reliably as tasks, interfaces, and user needs change over time.</li>
 </ul>
 </div>
 

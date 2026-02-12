@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Trustworthy Agentic AI
+title: Learning Agents in the Wild
 first_name: 
 middle_name: 
 last_name: 
 contact_note: >
   For any inquiries, please contact the organizers via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Trustworthy Agentic AI: Failure Modes, Control, and Recovery - Exploring safety challenges and risk mitigation strategies for autonomous AI systems.
+  Learning Agents in the Wild - Enabling AI agents to learn, adapt, and remain safe through ongoing real-world interaction.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
