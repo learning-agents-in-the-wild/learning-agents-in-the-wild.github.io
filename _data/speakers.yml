@@ -1,22 +1,31 @@
 # Invited Speakers
 
+- name: "Bo An"
+  affiliation: "Nanyang Technological University"
+  image: "/assets/img/speaker_bo.jpg"
+  url: "https://personal.ntu.edu.sg/boan/"
+
+- name: "Yali Du"
+  affiliation: "King's College London"
+  image: "/assets/img/speaker_yali.jpg"
+  url: "https://yalidu.github.io/"
+
+- name: "Nouha Dziri"
+  affiliation: "Allen Institute for AI (AI2)"
+  image: "/assets/img/speaker_nouha.jpg"
+  url: "https://nouhadziri.github.io/"
+
+- name: "Been Kim"
+  affiliation: "Google DeepMind"
+  image: "/assets/img/speaker_been.jpg"
+  url: "https://beenkim.github.io/"
+
 - name: "Sharon Li"
-  affiliation: "University of Wisconsin-Madison"
-  image: "assets/img/speaker_yixuan.jpeg"
+  affiliation: "University of Wisconsin–Madison"
+  image: "/assets/img/speaker_sharon.jpg"
   url: "https://pages.cs.wisc.edu/~sharonli/"
 
-- name: "TBA"
-  affiliation: "University"
-  image: "/assets/img/placeholder.svg"
-  url: ""
-
-- name: "TBA"
-  affiliation: "University"
-  image: "/assets/img/placeholder.svg"
-  url: ""
-
-- name: "TBA"
-  affiliation: "University"
-  image: "/assets/img/placeholder.svg"
-  url: ""
-
+- name: "Masashi Sugiyama"
+  affiliation: "University of Tokyo / RIKEN AIP"
+  image: "/assets/img/speaker_masashi.jpg"
+  url: "https://www.ms.k.u-tokyo.ac.jp/sugi/"
