@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://agentic-risk-safety-workshop.github.io/sitemap.xml
+Sitemap: https://learning-agents-in-the-wild.github.io//sitemap.xml
