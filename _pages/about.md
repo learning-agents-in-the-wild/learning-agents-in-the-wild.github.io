@@ -152,8 +152,8 @@ description: ""
 /* ===== People ===== */
 .people {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
   margin: 24px 0;
 }
 
