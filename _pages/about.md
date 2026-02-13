@@ -152,13 +152,21 @@ description: ""
 /* ===== People ===== */
 .people {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
   margin: 24px 0;
 }
 
 @media (max-width: 768px) {
   .people { grid-template-columns: repeat(2, 1fr); }
+}
+
+.section-note {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  font-style: italic;
+  margin-top: -16px;
+  margin-bottom: 20px;
 }
 
 .person {
@@ -289,6 +297,7 @@ description: ""
 /* ===== Dark Mode ===== */
 html[data-theme='dark'] .section h2 { color: #f3f4f6; border-color: #374155; }
 html[data-theme='dark'] .section p { color: #d1d5db; }
+html[data-theme='dark'] .section-note { color: #6b7280; }
 html[data-theme='dark'] .topics-list li { color: #d1d5db; }
 html[data-theme='dark'] .topics-list li strong { color: #f3f4f6; }
 html[data-theme='dark'] .person-name { color: #f3f4f6; }
@@ -337,6 +346,7 @@ html[data-theme='dark'] .contact-box a { color: #a5b4fc; }
 
 <div class="section">
 <h2>Speakers</h2>
+<p class="section-note">Listed in alphabetical order by last name</p>
 <div class="people">
 {% for speaker in site.data.speakers %}
   {% if speaker.url and speaker.url != "" %}
